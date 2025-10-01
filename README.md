@@ -1,32 +1,39 @@
-# _Sample project_
+# OBD9141_C_Core
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+**OBD9141_C_Core** is a C translation and adaptation of the original [OBD9141 Arduino library](https://github.com/iwanders/OBD9141) by Ivor Wanders.  
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+This version is designed for **ESP-IDF** but includes **framework-agnostic template functions** to allow easy porting to other frameworks or C environments.
 
+## Features
 
+- Full translation from Arduino C++ to C (ESP-IDF).
+- Template functions for framework portability.
+- Examples for requesting current PIDs, reading DTCs and listing supported PIDs.
+- Retains original logic and structure of the OBD9141 library.
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+## Protocol Support
 
-## Example folder contents
+Currently, **only KWP2000 Fast Init (ISO 14230-4)** has been tested (on a 2005 Opel Corsa). 
+Other initialisation handshakes (e.g. K-Line 5-baud init) are included in the code but **need community testing and confirmation**.  
 
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
+If you have access to different ECUs and can help test additional handshake modes, contributions are welcome.
 
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
+## Wiring Diagram
 
-Below is short explanation of remaining files in the project folder.
+Below is a wiring diagram of the components used to establish communication with the car:
 
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
+![Wiring Diagram](docs/wiring_diagram.png)  
+
+The wiring was inspired by the tutorial [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/) and refined with guidance from my professor, **Prof. Stoyan Stoyanov, Assistant Professor (PhD)**, who assisted in designing the wiring setup shown.
+
+## License
+
+This project, including all original and modified code, is released under the **MIT License**.  
+See [LICENSE](LICENSE.md) for full details.
+
+## Credits
+
+- **Original library**: OBD9141 by Ivor Wanders (https://github.com/iwanders/OBD9141), MIT License.  
+- **Wiring inspiration**: [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/)  
+- **Academic guidance**: Prof. Stoyan Stoyanov, Assistant Professor (PhD) — support in designing wiring.  
+- **This adaptation**: Georgi Georgiev, 2025, MIT License.
