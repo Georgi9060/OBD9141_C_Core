@@ -24,7 +24,7 @@ Below is a wiring diagram of the components used to establish communication with
 
 ![Wiring Diagram](docs/wiring_diagram.png)  
 
-The wiring schematic originates from the tutorial [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/) and was refined with guidance from my professor, **Prof. Stoyan Stoyanov, Assistant Professor (PhD)**, who assisted in designing the wiring setup shown.
+The wiring and connections originate from the tutorial [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/) and were refined with guidance from my professor, **Prof. Stoyan Stoyanov, Assistant Professor (PhD)**, who assisted in designing the wiring setup shown.
 
 ## License
 
@@ -34,6 +34,6 @@ See [LICENSE](LICENSE.md) for full details.
 ## Credits
 
 - **Original library**: OBD9141 by Ivor Wanders (https://github.com/iwanders/OBD9141), MIT License.  
-- **Wiring inspiration**: [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/)  
-- **Academic guidance**: Prof. Stoyan Stoyanov, Assistant Professor (PhD) — support in designing wiring.  
+- **Wiring and connections**: [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/)  
+- **Academic guidance**: Prof. Stoyan Stoyanov, Assistant Professor (PhD) — support in designing wiring and connections.  
 - **This adaptation**: Georgi Georgiev, 2025, MIT License.
