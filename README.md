@@ -14,9 +14,9 @@ This version is designed for **ESP-IDF** but includes **framework-agnostic templ
 ## Protocol Support
 
 Currently, **only KWP2000 Fast Init (ISO 14230-4)** has been tested (on a 2005 Opel Corsa). 
-Other initialisation handshakes (e.g. K-Line 5-baud init) are included in the code but need community testing and confirmation.
+Other handshakes/protocols from the original (KWP slow init and ISO-9141-2) are included in the code but need community testing and confirmation.
 
-If you have access to different ECUs and can help verify the other handshake modes work correctly, contributions are welcome.
+If you have access to different ECUs and can help verify the other protocols work correctly, contributions are welcome.
 
 ## Wiring Diagram
 
