@@ -35,5 +35,4 @@ See [LICENSE](LICENSE.md) for full details.
 
 - **Original library**: OBD9141 by Ivor Wanders (https://github.com/iwanders/OBD9141), MIT License.  
 - **Wiring and connections**: [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/)  
-- **Academic guidance**: Prof. Stoyan Stoyanov, Assistant Professor (PhD) — support in designing wiring and connections.  
-- **This adaptation**: Georgi Georgiev, 2025, MIT License.
+- **Academic guidance**: Prof. Stoyan Stoyanov, Assistant Professor (PhD) — support in designing wiring and connections.
