@@ -24,7 +24,7 @@ Below is a wiring diagram of the components used to establish communication with
 
 ![Wiring Diagram](docs/wiring_diagram.png)  
 
-The wiring and connections originate from the tutorial [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/) and were refined with guidance from my professor, **Prof. Stoyan Stoyanov, Assistant Professor (PhD)**, who assisted in designing the wiring setup shown.
+The wiring and connections originate from the tutorial [Cheap OBD2 Communications on K-line (ISO 9141-2 and ISO 14230-4)](https://www.instructables.com/Low-Cost-OBD2-Communications-on-K-line-ISO-9141-2-/) and were refined with guidance from my professor, **Assistant Professor Stoyan Stoyanov, PhD**, who assisted in designing the wiring setup shown.
 
 ## License
 
